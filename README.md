@@ -28,3 +28,33 @@
 * create a table ___ with the following column and datatypes: [col1: datatype1, col2: datatype2 ...]
 ###### UPDATE:
 * update ___ in table ___ with ___ = UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+
+-----------------------------------------------------------------------------
+
+### Game Plan
+* Each Individual Table is converted to a CSV File
+###  DB Details
+##### * Columns in original db
+* rank - int
+* name - string
+* year - int
+* rating - float
+* genre - string/list
+* certificate - String(Can make an enumerator)
+* run_time - hours and minutes
+* tagline - String
+* budget - int (Long)
+* box_office - int
+* casts - list string
+* directors - list string
+* writers - list strings
+
+### Tables we make
+#### * Movie Essentials
+* rank(PK), name, year
+#### * Movie Details for viewers
+* rank(FK), rating, genre, tagline, certificate
+#### * Movie details for media
+* rank(FK), budget, box_office
+#### * Movie Makers
+* rank(FK), casts, directors, writers
