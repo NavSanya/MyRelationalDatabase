@@ -15,7 +15,7 @@
 * at most = less than equal to = less than or equal to = <=
 * equals = equal to = =
 ###### JOIN:
-* combine tables __ where __ = JOIN ___ on ___
+* combine tables __ on __ = JOIN ___ on ___
 ###### GROUP BY:
 * find sum/avg/... of column ___ of table ___ =   SELECT column1, aggregate_function(column2) FROM table_name GROUP BY column1;
 ###### HAVING:
