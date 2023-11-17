@@ -11,9 +11,9 @@
 * Where ___ = WHERE ___
 * greater than = >
 * less than = <
-* at least = greater than equal to = greater than or equal to = >=
-* at most = less than equal to = less than or equal to = <=
-* equals = equal to = =
+* at least = >=
+* at most = <=
+* equal to = ==
 ###### JOIN:
 * combine tables __ on __ = JOIN ___ on ___
 ###### GROUP BY:
