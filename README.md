@@ -1,60 +1,116 @@
-# MyRelationalDatabase
+## How to run
+### Packages needed
+#### A. re 
+```
+pip install re
+```
+#### B. csv
+```
+pip install csv
+```
+#### C. cmd
+```
+pip install cmd
+```
+#### D. traceback
+```
+pip install traceback
+```
+#### E. ast
+```
+pip install ast
+```
+### Download folder and run ipynb file 
+#### ***Download folder***
+Run all the cells
 
-### Game Plan
-##### IDEA:
-###### SELECT:
-* Get all = SELECT *
-* Get  ___ = SELECT ___
-###### FROM:
-* From table ___ = FROM ___
-###### WHERE:
-* Where ___ = WHERE ___
-* greater than = >
-* less than = <
-* at least = >=
-* at most = <=
-* equal to = ==
-###### JOIN:
-* combine tables __ on __ = JOIN ___ on ___
-###### GROUP BY:
-* find sum/avg/... of column ___ of table ___ =   SELECT column1, aggregate_function(column2) FROM table_name GROUP BY column1;
-###### HAVING:
-* where ___ = HAVING ____
-###### ORDER BY:
-* ___ in asc/desc order = ORDER BY ___ ASC/DESC
-###### INSERT INTO:
-* Add [values] to table ___ in columns [names] = INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...)
-###### CREATE TABLE:
-* create a table ___ with the following column and datatypes: [col1: datatype1, col2: datatype2 ...]
-###### UPDATE:
-* update ___ in table ___ with ___ = UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+### Download folder and run py file 
+#### ***Download folder***
+```
+python3 navsanya_6878418392.py 
+```
+### Terminal screen
+![Alt text](image.png)
 
------------------------------------------------------------------------------
 
-### Game Plan
-* Each Individual Table is converted to a CSV File
-###  DB Details
-##### * Columns in original db
-* rank - int
-* name - string
-* year - int
-* rating - float
-* genre - string/list
-* certificate - String(Can make an enumerator)
-* run_time - hours and minutes
-* tagline - String
-* budget - int (Long)
-* box_office - int
-* casts - list string
-* directors - list string
-* writers - list strings
+## Test Queries
 
-### Tables we make
-#### * Movie Essentials
-* rank(PK), name, year
-#### * Movie Details for viewers
-* rank(FK), rating, genre, tagline, certificate
-#### * Movie details for media
-* rank(FK), budget, box_office
-#### * Movie Makers
-* rank(FK), casts, directors, writers
+### help
+```
+help
+```
+
+### GET
+```
+GET rank,writers FROM TABLE makers WHERE rank is greater than 0 and rank is less than 75
+```
+```
+GET ALL FROM TABLE mediaDeets WHERE rank is at most 80
+```
+
+### FIND
+```
+FIND COUNT OF COLUMN budget FROM TABLE mediaDeets
+```
+```
+FIND AVG OF COLUMN rank FROM TABLE essentials
+```
+
+### CREATE
+```
+CREATE A TABLE myTable WITH THE FOLLOWING COLUMNS: a,b
+```
+
+### ADD
+```
+ADD VALUES 1,hi INTO TABLE myTable IN COLUMN/S a,b
+```
+
+### COMBINE
+```
+COMBINE TABLES testTable,testTableQuery ON a
+```
+
+### UPDATE
+```
+UPDATE TABLE testTable WITH VALUES 99,hello!! IN COLUMN a,b WHERE c is equal to 5.3
+```
+
+### DELETE
+```
+DELETE ROW/S FROM TABLE testTable WHERE c is equal to 5.3
+```
+### SHOW
+```
+SHOW TABLE essentials
+```
+
+### exit
+```
+exit
+```
+
+## File Descriptions
+###  Final Report
+* Final Report.gdoc: google doc version
+* Final Report.pdf: pdf version
+### Test csv files so we can see the results at a more smaller level (easy to understand)
+
+* testTable.csv
+* testTableQuery.csv
+
+### IMDBTop250Movies.csv: Complete Database - all columns
+
+### Divided into
+* Essentials: rank, name, year
+* viewerDeets: rank, rating, genre, tagline, certificate
+* mediaDeets: rank, budget, box_office
+* makers: rank, casts, directors, writers
+
+## Project Report (Google docs): [link][1] 
+[1]: https://docs.google.com/document/d/1DsRMTtiMdslgF0zM87dfLogxBUjrt4ZoNImmXADyowc/edit?usp=sharing
+## Project Report (pdf): [link][3]
+[3]: https://drive.google.com/file/d/1pUCBxNKPigCeetU4sRaoL1P9FdAl2voY/view?usp=sharing 
+## Project Folder: [link][2]
+[2]: https://drive.google.com/drive/folders/11Mhnl9HFpHKqHTPsR85P2prLKBj37rdy?usp=sharing 
+

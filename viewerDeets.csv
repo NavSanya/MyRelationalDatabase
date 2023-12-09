@@ -1,11 +1,11 @@
 rank,rating,genre,certificate,run_time,tagline
 1,9.3,Drama,R,2h 22m,Fear can hold you prisoner. Hope can set you free.
 2,9.2,"Crime,Drama",R,2h 55m,An offer you can't refuse.
-3,9.0,"Action,Crime,Drama",PG-13,2h 32m,Why So Serious?
-4,9.0,"Crime,Drama",R,3h 22m,All the power on earth can't change destiny.
-5,9.0,"Crime,Drama",Approved,1h 36m,Life Is In Their Hands -- Death Is On Their Minds!
-6,9.0,"Biography,Drama,History",R,3h 15m,"Whoever saves one life, saves the world entire."
-7,9.0,"Action,Adventure,Drama",PG-13,3h 21m,The eye of the enemy is moving.
+3,9,"Action,Crime,Drama",PG-13,2h 32m,Why So Serious?
+4,9,"Crime,Drama",R,3h 22m,All the power on earth can't change destiny.
+5,9,"Crime,Drama",Approved,1h 36m,Life Is In Their Hands -- Death Is On Their Minds!
+6,9,"Biography,Drama,History",R,3h 15m,"Whoever saves one life, saves the world entire."
+7,9,"Action,Adventure,Drama",PG-13,3h 21m,The eye of the enemy is moving.
 8,8.9,"Crime,Drama",R,2h 34m,Girls like me don't make invitations like this to just anyone!
 9,8.8,"Action,Adventure,Drama",PG-13,2h 58m,The Legend Comes to Life
 10,8.8,"Adventure,Western",Approved,2h 58m,They formed an alliance of hate to steal a fortune in dead man's gold
@@ -225,7 +225,7 @@ rank,rating,genre,certificate,run_time,tagline
 224,8.1,"Comedy,Drama,Fantasy",PG,1h 41m,What would you do if you were stuck in the same day... over and over? Anything you want and everything your heart desires.
 225,8.1,"Drama,Romance,War",Approved,2h 50m,THE SCREEN'S GREATEST LOVE STORY IS THE BEST FILM THIS YEAR FROM HOLLYWOOD!
 226,8.1,Horror,R,2h 2m,The movie you've been waiting for...without the wait.
-227,8.0,"Animation,Action,Adventure",PG,1h 55m,Save The Day
+227,8,"Animation,Action,Adventure",PG,1h 55m,Save The Day
 228,8.2,"Comedy,Romance,War",Passed,1h 39m,The Picture Everyone Wants To See.
 229,8.1,"Crime,Drama",Not Rated,1h 38m,"So far, so good"
 230,8.1,"Drama,War",Not Rated,2h 1m,The French Colonel...who was forced even to torture! One of the many women...who stopped at nothing to win! The Algerian Street Boy...who became a rebel hero!
@@ -242,10 +242,10 @@ rank,rating,genre,certificate,run_time,tagline
 241,8.1,"Biography,Drama,Family",G,2h 52m,RADIANCE THAT FLOODS THE SCREEN...AND WARMS THE HEART!
 242,8.1,"Comedy,Romance",Passed,1h 45m,Two great lovers of the screen in the grandest of romantic comedies !
 243,8.1,"Drama,Thriller",Not Rated,1h 23m,A new film by Ingmar Bergman
-244,8.0,Comedy,R,1h 34m,A motion picture destined to offend nearly two thirds of the civilized world. And severely annoy the other third.
+244,8,Comedy,R,1h 34m,A motion picture destined to offend nearly two thirds of the civilized world. And severely annoy the other third.
 245,8.1,"Animation,Action,Adventure",PG,1h 26m,Some secrets are too huge to hide
 246,8.1,Drama,PG-13,2h 26m,Change begins with a whisper.
 247,8.2,"Adventure,Biography,Drama",G,2h 22m,There is man and beast at nature's mercy. There is awe and love and reverence. And there is the man called...
-248,8.0,"Animation,Adventure,Comedy",G,1h 30m,Wish granted! (DVD re-release)
-249,8.0,"Biography,Drama,History",PG,3h 11m,His Triumph Changed The World Forever.
-250,8.0,"Adventure,Drama,Western",PG-13,3h 1m,Inside everyone is a frontier waiting to be discovered.
+248,8,"Animation,Adventure,Comedy",G,1h 30m,Wish granted! (DVD re-release)
+249,8,"Biography,Drama,History",PG,3h 11m,His Triumph Changed The World Forever.
+250,8,"Adventure,Drama,Western",PG-13,3h 1m,Inside everyone is a frontier waiting to be discovered.
